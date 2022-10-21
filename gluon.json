@@ -1,0 +1,34 @@
+{
+  "name": "Freon Browser",
+  "vendor": "Lucas Moss",
+  "appId": "xyz.splatboy-dev.freon",
+  "version": {
+    "product": "firefox",
+    "version": "106.0.1",
+    "displayVersion": "1.0.0"
+  },
+  "binaryName": "freon-browser",
+  "buildOptions": {
+    "generateBranding": false,
+    "windowsUseSymbolicLinks": false
+  },
+  "brands": {
+    "stable": {
+      "backgroundColor": "#2B2A33",
+      "brandShorterName": "Freon",
+      "brandShortName": "Freon Browser",
+      "brandFullName": "Freon Browser",
+      "release": {
+        "displayVersion": "1.0.0",
+        "github": {
+          "repo": "splatboydev/freon"
+        },
+        "x86": {
+          "windowsMar": "windows.mar",
+          "macosMar": "macosIntel.mar",
+          "linuxMar": "linux.mar"
+        }
+      }
+    }
+  }
+}
