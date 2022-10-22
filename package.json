@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "gluon-build": "^1.0.0-a.1"
+    "gluon-build": "^1.0.0-rc.1"
   }
 }
